@@ -1,0 +1,9 @@
+body { font-family: system-ui, sans-serif; background: #f4f4f5; margin: 0; }
+main { max-width: 700px; margin: 0 auto; padding: 16px; }
+#messages { background: #fff; border-radius: 8px; padding: 12px; min-height: 300px; max-height: 60vh; overflow-y: auto; }
+.msg { margin: 8px 0; padding: 8px 12px; border-radius: 8px; white-space: pre-wrap; }
+.user { background: #dbeafe; text-align: right; }
+.assistant { background: #e5e7eb; }
+.error { background: #fee2e2; }
+#bar { display: flex; gap: 8px; margin-top: 12px; }
+#input { flex: 1; padding: 8px; }
