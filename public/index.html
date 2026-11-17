@@ -9,10 +9,20 @@
 <body>
   <main>
     <h1>Ollama Chat</h1>
+
+    <div id="toolbar">
+      <select id="model"></select>
+      <label id="thinkLabel" hidden>
+        <input type="checkbox" id="think" /> Reasoning
+      </label>
+    </div>
+
     <div id="messages"></div>
+
     <div id="bar">
       <input id="input" placeholder="Type a message..." autocomplete="off" />
       <button id="send">Send</button>
+      <button id="stop" disabled>Stop</button>
       <button id="new">New chat</button>
     </div>
   </main>
